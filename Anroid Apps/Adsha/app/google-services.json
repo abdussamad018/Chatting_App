@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358912349994",
+    "project_id": "adsha-de546",
+    "storage_bucket": "adsha-de546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358912349994:android:f63e33ed8cb00a045b7053",
+        "android_client_info": {
+          "package_name": "com.example.adsha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358912349994-rd5n07tslb5tqprhst5l9drg2vv3egde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6wShqaR0jCaVn-XS8etYI1VcEAWTDd_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358912349994-rd5n07tslb5tqprhst5l9drg2vv3egde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

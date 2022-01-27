@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/darker_gray"
+
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_marginTop="250dp"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+     <EditText
+
+         android:id="@+id/SignInEmailEditTextID"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="10dp"
+         android:background="@android:color/white"
+         android:hint="Email Address"
+         android:inputType="textEmailAddress"
+         android:paddingLeft="5dp"
+         android:focusable="true"
+         android:textStyle="bold"/>
+     <EditText
+         android:id="@+id/SignInPasswordEditTextID"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="10dp"
+         android:background="@android:color/white"
+         android:hint="Password"
+         android:inputType="textPassword"
+         android:paddingLeft="5dp"
+         android:focusable="true"
+         android:textStyle="bold"/>
+     <Button
+         android:id="@+id/SignInBtnId"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:textStyle="bold"
+         android:background="@android:color/holo_orange_light"
+        android:textSize="22sp"
+         android:textAllCaps="false"
+         android:layout_marginTop="10dp"
+        android:text="Login"/>
+     <TextView
+         android:id="@+id/SignInTextViewId"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:textStyle="bold"
+         android:textSize="20sp"
+        android:text="Not Yet a Member? Sign Up"/>
+      <TextView
+          android:id="@+id/ForgotId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Forgot password"
+          android:textStyle="bold"
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:textColor="@android:color/white"/>
+     <ProgressBar
+         android:id="@+id/SignInProgressId"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+         android:visibility="gone" />
+
+
+
+
+
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "690582131732",
+    "firebase_url": "https://signinactivity-68cb0.firebaseio.com",
+    "project_id": "signinactivity-68cb0",
+    "storage_bucket": "signinactivity-68cb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690582131732:android:d8df9cd309d03fb4cb8301",
+        "android_client_info": {
+          "package_name": "com.example.signinactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690582131732-isgiab5oj1rqmoclkmreds35kbpj23f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIG09FPENQDVQeJCZ2oZtQNyZtnEQMG-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690582131732-isgiab5oj1rqmoclkmreds35kbpj23f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
